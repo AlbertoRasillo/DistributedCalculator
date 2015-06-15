@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<calculation type="aproximacionNumE">
+	<!-- X^2 + Y^2 + 1 / Z + X + 3 -->
+	<operation id="aproximacionNumE">
+		<server name="localhost" port="7001"></server>
+		<type>aproximacionNumE</type><!-- op.type  -->
+		<input type="Number" name="x"></input>
+		<result type="Number"></result>
+	</operation>
+	
+</calculation>

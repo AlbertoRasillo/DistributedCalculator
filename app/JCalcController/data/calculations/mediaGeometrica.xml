@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<calculation type="mediaGeometrica">
+	<!-- X^2 + Y^2 + 1 / Z + X + 3 -->
+	<operation id="mediaGeometrica">
+		<server name="localhost" port="7001"></server>
+		<type>mediaGeome</type><!-- op.type  -->
+		<input type="Array" name="x"></input>
+		<result type="Number"></result>
+	</operation>
+	
+</calculation>
