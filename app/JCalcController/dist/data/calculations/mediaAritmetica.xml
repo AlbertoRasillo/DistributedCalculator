@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<calculation type="mediaAritmetica">
+	<!-- X^2 + Y^2 + 1 / Z + X + 3 -->
+	<operation id="mediaAritmetica">
+		<server name="localhost" port="7001"></server>
+		<type>mediaAritmetica</type><!-- op.type  -->
+		<input type="Array" name="x"></input>
+		<result type="Number"></result>
+	</operation>
+	
+</calculation>

@@ -4,8 +4,8 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="DFS"/>
         <group>
-            <file>file:/C:/Users/Alberto/Documents/UNIVERSIDAD/Ampliacion%20Sistemas%20Operativos/Practica1_Skel_v1.0%20(1)/app/LibCompEngine/src/compengine/ComputeEngineException.java</file>
-            <file>file:/C:/Users/Alberto/Documents/UNIVERSIDAD/Ampliacion%20Sistemas%20Operativos/Practica1_Skel_v1.0%20(1)/app/LibCompEngine/src/compengine/FloatEngine.java</file>
+            <file>file:/C:/Users/Alberto/Desktop/DistributedCalculator-master/app/LibCompEngine/src/compengine/FloatEngine.java</file>
+            <file>file:/C:/Users/Alberto/Desktop/DistributedCalculator-master/app/LibCompEngine/src/compengine/IntegerEngine.java</file>
         </group>
     </open-files>
 </project-private>

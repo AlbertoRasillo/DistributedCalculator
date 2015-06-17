@@ -4,9 +4,8 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="DFS"/>
         <group>
-            <file>file:/C:/Users/Alberto/Documents/UNIVERSIDAD/Ampliacion%20Sistemas%20Operativos/Practica1_Skel_v1.0%20(1)/app/JCalcClient/src/jcalcclient/TaskOperation.java</file>
-            <file>file:/C:/Users/Alberto/Documents/UNIVERSIDAD/Ampliacion%20Sistemas%20Operativos/Practica1_Skel_v1.0%20(1)/app/JCalcClient/src/jcalcclient/Interfaz.java</file>
-            <file>file:/C:/Users/Alberto/Documents/UNIVERSIDAD/Ampliacion%20Sistemas%20Operativos/Practica1_Skel_v1.0%20(1)/app/JCalcClient/src/jcalcclient/MainClient.java</file>
+            <file>file:/C:/Users/Alberto/Desktop/DistributedCalculator-master/app/JCalcClient/src/jcalcclient/Interfaz.java</file>
+            <file>file:/C:/Users/Alberto/Desktop/DistributedCalculator-master/app/JCalcClient/src/jcalcclient/TaskOperation.java</file>
         </group>
     </open-files>
 </project-private>

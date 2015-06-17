@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<calculation type="varianza">
+	<operation id="varianza">
+		<server name="localhost" port="7001"></server>
+		<type>varianza</type><!-- op.type  -->
+		<input type="Array" name="x"></input>
+		<result type="Number"></result>
+	</operation>
+</calculation>

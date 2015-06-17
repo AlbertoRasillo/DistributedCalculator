@@ -112,11 +112,16 @@ public class TaskClient {
                 rs.setSubtype("_JCALC_OPERATION_OK_");
                 rs.addData(op);
             }
-            catch(ComputeEngineException e) {
-                // Error si se dividio por cero
+            catch(ComputeEngineException ex) {
+                protocol.common.Error err = new protocol.common.Error();
+                err.type = ex.getMessage();
+                err.msg = "Error el divisor no puede ser 0";
+                op.setResult(err);
+                rs.setSubtype("_JCALC_OPERATION_ERROR_");
             }
+            rs.addData(op);
             return ccp.sendResponse(rs);            
-        }        
+        }           
         else if( op.getType().compareTo("x2")==0 ) {
             Float n = (Float)op.getInputData().get(0).value;
             double rss = fengine.x2(n.floatValue());
@@ -129,7 +134,19 @@ public class TaskClient {
         }        
         else if( op.getType().compareTo("xey")==0 ) {
             
-        }        
+        }
+        else if( op.getType().compareTo("moda")==0 ) {
+            Float[] numeros =(Float[])op.getInputData().get(0).value;
+ 
+            float[] datos = ArrayUtils.toPrimitive(numeros);
+            Double res = null;
+            res = new Double(fengine.moda(datos));
+            op.setResult(res);
+            
+            rs.setSubtype("_JCALC_OPERATION_OK_");
+            rs.addData(op);
+            return ccp.sendResponse(rs);
+        }
         else if( op.getType().compareTo("raiz2")==0 ) {
             Float n = (Float)op.getInputData().get(0).value;
             double rss = fengine.raiz2(n.floatValue());

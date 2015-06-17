@@ -8,7 +8,7 @@ package jcalccontroller;
 import java.text.ParseException;
 import java.net.*;
 import java.io.*;
-
+import java.util.ArrayList;
 import protocol.common.*;
 import protocol.clientcontroller.*;
 
@@ -26,8 +26,10 @@ public class MainController {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // TODO code application logic here
+        ArrayList<CalcServidores> lista = new ArrayList<CalcServidores>();
+        lista = CalcServidores.cargarServidores();
         MainController app = new MainController();
         app.init(args);
         app.run();        
